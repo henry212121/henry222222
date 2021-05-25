@@ -15,12 +15,22 @@
 
 
 
-
 <body>
+    <video autoplay muted loop id="bg-video">
+        <source src="gfp-astro-timelapse.mp4" type="video/mp4">
+    </video>
+
+
     <header id="main-header">
-        <h1 id="site-title">Best News Ever!</h1>
+        <center>
+            <h1 id="site-title">Best News Ever!</h1>
+        </center>
     </header>
+
+
+
     <main>
+
 
         <section id="top-stories">
             <article>
@@ -49,10 +59,11 @@
                 <a href="#">
                     <h3>HTML5 Saves the day</h3>
                 </a>
-                <p>Since it's intoduction, there's been less div soup....<a href="#" class="more-link">Read more..</a></p>
+                <p>Since it's inroduction, there's been less div soup....<a href="#" class="more-link">Read more..</a></p>
                 </p>
             </article>
         </section>
+        <script src="js/main.js"></script>
     </main>
 
     <br>
@@ -67,7 +78,62 @@
     <br>
     <br>
     <br>
+    <div class="container">
+        <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <span>Ito ay isang sample paragraph wala pang maisip isulat.Ito ay isang sample paragraph wala pang maisip isulat.Ito ay isang sample paragraph wala pang maisip isulat.
+            Ito ay isang sample paragraph wala pang maisip isulat.
+            Ito ay isang sample paragraph wala pang maisip isulat.
+            Ito ay isang sample paragraph wala pang maisip isulat.
+            Ito ay isang sample paragraph wala pang maisip isulat.
+            </span>
+        </div>
+        <br>
+        <br>
 
+        <div class="row">
+            <div class="right-content">
+                <div class="container">
+                    <form id="contact" action="" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                                <fieldset>
+                                    <input name="email" type="text" class="form-control" id="email" placeholder="Your email..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="button">
+                        Send Message
+                      </button>
+                                    <div class="place-desc-large">
+                                        <div jstcache="36" class="place-name" jsan="7.place-name">Tuy</div>
+                                        <div jstcache="37" class="address" jsan="7.address">Batangas</div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
