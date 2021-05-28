@@ -61,7 +61,6 @@ article img {
     min-height: 100%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -100;
-    background-image: url(../img/tm-astro-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,4 +234,19 @@ h2 {
     .intro-img-2 {
         width: 48%;
     }
+}
+
+.map-outer {
+    position: relative;
+}
+
+.gmap-canvas {
+    overflow: hidden;
+    background: none!important;
+}
+
+.map-outer,
+.gmap-canvas {
+    height: 200px;
+    width: 100%;
 }
